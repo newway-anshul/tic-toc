@@ -1,0 +1,11 @@
+#flx-maincontainer {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    flex-wrap: wrap;
+}
+#flx-maincontainer .flx-child{
+  height: 48px;
+  width:  48px;
+  border: 1px solid black;
+}

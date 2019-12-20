@@ -1,0 +1,24 @@
+{
+  "name": "tic-toc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newway-anshul/tic-toc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newway-anshul/tic-toc/issues"
+  },
+  "homepage": "https://github.com/newway-anshul/tic-toc#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
