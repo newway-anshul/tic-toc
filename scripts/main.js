@@ -41,7 +41,7 @@ function checkforwin(player_moves) {
             }
             else {
                 won = false;
-                return false;
+                return true;
             }
         });
         if (won) {
