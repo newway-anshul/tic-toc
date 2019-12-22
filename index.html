@@ -10,16 +10,11 @@
 </head>
 <body>
     <div id="flx-maincontainer">
-        <div class="flx-child" data-row-col="1,1" onclick="childclicked(event)"></div>
-        <div class="flx-child" data-row-col="1,2" onclick="childclicked(event)"></div>
-        <div class="flx-child" data-row-col="1,3" onclick="childclicked(event)"></div>
-        <div class="flx-child" data-row-col="2,1" onclick="childclicked(event)"></div>
-        <div class="flx-child" data-row-col="2,2" onclick="childclicked(event)"></div>
-        <div class="flx-child" data-row-col="2,3" onclick="childclicked(event)"></div>
-        <div class="flx-child" data-row-col="3,1" onclick="childclicked(event)"></div>
-        <div class="flx-child" data-row-col="3,2" onclick="childclicked(event)"></div>
-        <div class="flx-child" data-row-col="3,3" onclick="childclicked(event)"></div>
     </div>
 </body>
-<script src='scripts/main.js'></script>
+<script  type="module">
+import TicToe from './scripts/temp_main.js';
+const rootEle = document.getElementById("flx-maincontainer");
+TicToe.init(rootEle);
+</script>
 </html>
